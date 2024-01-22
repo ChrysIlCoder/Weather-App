@@ -1,0 +1,22 @@
+$color: #CCCCCC;
+$border: solid 1px $color;
+
+.search_bar {
+    display: flex;
+
+    &__search_input {
+        background: transparent;
+        border: none;
+        border-bottom: $border;
+        outline: none;
+        font-family: 'Inter', sans-serif;
+    }
+    &__search_button {
+        border: none;
+        border-bottom: $border;
+        padding: 2px 8px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        background: transparent;
+    }
+}

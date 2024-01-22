@@ -1,0 +1,15 @@
+.language_selector {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    &__button {
+        width: 25px;
+        height: 25px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+}
